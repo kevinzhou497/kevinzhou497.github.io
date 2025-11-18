@@ -1,8 +1,11 @@
-#publications .pub-list li {
-  padding-left: 1.25em;
-  text-indent: -1.25em;
-}
-
-#publications .pub-list li .pub-info {
-  margin-left: 0.75em;
+/* Fix badge width and align publication list items */
+#publications .pub-list li .pub-venue,
+#publications .pub-list li .label {
+  display: inline-block;
+  width: 150px;           /* adjust width as needed */
+  text-align: center;
+  vertical-align: top;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
